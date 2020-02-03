@@ -2,6 +2,7 @@
 Resources:
   MyInstanceNew:
     Type: AWS::EC2::Instance
+    Description: "Create new EC2 instance"
     Properties:
      -  AvailabilityZone: !Sub ${AWS::Region}a
         ImageId: ami-a4c7edb2
